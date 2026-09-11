@@ -1,0 +1,50 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "core": {
+    "background": {
+      "value": "#141210",
+      "role": "background",
+      "name": "color-background"
+    },
+    "text-primary": {
+      "value": "#f2ede8",
+      "role": "text-primary",
+      "name": "color-primary"
+    },
+    "text-muted": {
+      "value": "#a8a29e",
+      "role": "text-muted",
+      "name": "color-secondary"
+    },
+    "text-subtle": {
+      "value": "#8a8682",
+      "role": "text-subtle",
+      "name": "color-tertiary"
+    },
+    "surface": {
+      "value": "#141210",
+      "role": "surface",
+      "name": "color-background"
+    }
+  },
+  "status": {},
+  "extended": {
+    "invert-surface": {
+      "value": "#f2ede8",
+      "role": "invert-surface",
+      "name": "color-primary",
+      "note": "Inline highlight chips: cream background with #141210 text."
+    },
+    "divider": {
+      "value": "rgba(168, 162, 158, 0.2)",
+      "role": "divider",
+      "note": "Dashed leader lines between titles and dates."
+    }
+  },
+  "meta": {
+    "theme": "dark",
+    "extracted": "2026-09-11",
+    "corrected": "2026-09-11",
+    "correctionNote": "Raw extraction mislabelled this as a light theme (background #ffffff, text #000000) and filed the real background #141210 under 'unknown'. Roles below verified against computed styles on the live site. tw-prose-* values are Tailwind Typography defaults and were removed."
+  }
+}

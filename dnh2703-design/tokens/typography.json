@@ -1,0 +1,119 @@
+{
+  "families": [
+    "Inter",
+    "Geist Mono"
+  ],
+  "scale": {
+    "heading-1": {
+      "fontFamily": "Inter",
+      "fontSize": "1.75rem",
+      "fontWeight": "700",
+      "lineHeight": null,
+      "source": "css"
+    },
+    "heading-2": {
+      "fontFamily": "Inter",
+      "fontSize": "inherit",
+      "fontWeight": "700",
+      "lineHeight": null,
+      "source": "css"
+    },
+    "heading-3": {
+      "fontFamily": "Inter",
+      "fontSize": "1em",
+      "fontWeight": "700",
+      "lineHeight": null,
+      "source": "css"
+    },
+    "body": {
+      "fontFamily": "Inter",
+      "fontSize": "80%",
+      "fontWeight": "400",
+      "lineHeight": null,
+      "source": "css"
+    },
+    "caption": {
+      "fontFamily": "Inter",
+      "fontSize": "75%",
+      "fontWeight": "400",
+      "lineHeight": null,
+      "source": "css"
+    },
+    "code": {
+      "fontFamily": "Geist Mono",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "lineHeight": null,
+      "source": "css"
+    }
+  },
+  "fontFaces": [
+    {
+      "family": "Inter",
+      "src": "https://www.dnh2703.work/_next/static/media/2c55a0e60120577a-s.0bjc5tiuqdqro.woff2",
+      "format": "woff2",
+      "weight": "100"
+    },
+    {
+      "family": "Inter",
+      "src": "https://www.dnh2703.work/_next/static/media/9c72aa0f40e4eef8-s.0m6w47a4e5dy9.woff2",
+      "format": "woff2",
+      "weight": "100"
+    },
+    {
+      "family": "Inter",
+      "src": "https://www.dnh2703.work/_next/static/media/ad66f9afd8947f86-s.11u06r12fd6v_.woff2",
+      "format": "woff2",
+      "weight": "100"
+    },
+    {
+      "family": "Inter",
+      "src": "https://www.dnh2703.work/_next/static/media/5476f68d60460930-s.0wxq9webf.ew4.woff2",
+      "format": "woff2",
+      "weight": "100"
+    },
+    {
+      "family": "Inter",
+      "src": "https://www.dnh2703.work/_next/static/media/2bbe8d2671613f1f-s.067x_6k0k23tk.woff2",
+      "format": "woff2",
+      "weight": "100"
+    },
+    {
+      "family": "Inter",
+      "src": "https://www.dnh2703.work/_next/static/media/1bffadaabf893a1e-s.16ipb6fqu393i.woff2",
+      "format": "woff2",
+      "weight": "100"
+    },
+    {
+      "family": "Inter",
+      "src": "https://www.dnh2703.work/_next/static/media/83afe278b6a6bb3c-s.p.0q-301v4kxxnr.woff2",
+      "format": "woff2",
+      "weight": "100"
+    },
+    {
+      "family": "Geist Mono",
+      "src": "https://www.dnh2703.work/_next/static/media/4fa387ec64143e14-s.0q3udbd2bu5yp.woff2",
+      "format": "woff2",
+      "weight": "100"
+    },
+    {
+      "family": "Geist Mono",
+      "src": "https://www.dnh2703.work/_next/static/media/bbc41e54d2fcbd21-s.0gw~uztddq1df.woff2",
+      "format": "woff2",
+      "weight": "100"
+    },
+    {
+      "family": "Geist Mono",
+      "src": "https://www.dnh2703.work/_next/static/media/797e433ab948586e-s.p.0.q-h669a_dqa.woff2",
+      "format": "woff2",
+      "weight": "100"
+    }
+  ],
+  "rules": {
+    "maxSizesPerScreen": 4,
+    "headingWeightRange": "600-700",
+    "bodyWeight": 400,
+    "lineHeightBody": 1.5,
+    "lineHeightHeading": 1.2
+  }
+}

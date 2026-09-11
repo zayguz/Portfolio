@@ -1,0 +1,89 @@
+{
+  "families": [
+    "Geist",
+    "SFMono-Regular"
+  ],
+  "scale": {
+    "heading-1": {
+      "fontFamily": "Geist",
+      "fontSize": "1.1875rem",
+      "fontWeight": "500",
+      "lineHeight": null,
+      "source": "computed (verified on live site)"
+    },
+    "heading-2": {
+      "fontFamily": "Geist",
+      "fontSize": "1.125rem",
+      "fontWeight": "500",
+      "lineHeight": null,
+      "source": "computed (verified on live site)"
+    },
+    "heading-3": {
+      "fontFamily": "Geist",
+      "fontSize": "1.0625rem",
+      "fontWeight": "500",
+      "lineHeight": null,
+      "source": "computed (verified on live site)"
+    },
+    "body": {
+      "fontFamily": "Geist",
+      "fontSize": "1rem",
+      "fontWeight": "400",
+      "lineHeight": null,
+      "source": "css"
+    },
+    "caption": {
+      "fontFamily": "Geist",
+      "fontSize": ".9375rem",
+      "fontWeight": "400",
+      "lineHeight": null,
+      "source": "css"
+    },
+    "code": {
+      "fontFamily": "SFMono-Regular",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "lineHeight": null,
+      "source": "css"
+    }
+  },
+  "fontFaces": [
+    {
+      "family": "Geist",
+      "src": "https://johnnychai.com/_next/static/immutable/media/fef07dbb0973bf53-s.00az9qtie3ho1.woff2",
+      "format": "woff2",
+      "weight": "100"
+    },
+    {
+      "family": "Geist",
+      "src": "https://johnnychai.com/_next/static/immutable/media/8a480f0b521d4e75-s.3j-a226dh71aj.woff2",
+      "format": "woff2",
+      "weight": "100"
+    },
+    {
+      "family": "Geist",
+      "src": "https://johnnychai.com/_next/static/immutable/media/53b9e256198e5412-s.2gwoz23eiro2t.woff2",
+      "format": "woff2",
+      "weight": "100"
+    },
+    {
+      "family": "Geist",
+      "src": "https://johnnychai.com/_next/static/immutable/media/7178b3e590c64307-s.0i3h3th1vs4m7.woff2",
+      "format": "woff2",
+      "weight": "100"
+    },
+    {
+      "family": "Geist",
+      "src": "https://johnnychai.com/_next/static/immutable/media/caa3a2e1cccd8315-s.p.0zr6hhvz-h9nw.woff2",
+      "format": "woff2",
+      "weight": "100"
+    }
+  ],
+  "rules": {
+    "maxSizesPerScreen": 4,
+    "headingWeightRange": "500",
+    "bodyWeight": 400,
+    "lineHeightBody": 1.5,
+    "lineHeightHeading": 1.2
+  }
+}

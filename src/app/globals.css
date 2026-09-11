@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+/* Palette and type extracted from johnnychai.com (see johnnychai-design/). */
+@theme {
+  --color-ground: #141210;
+  --color-ink: #f2ede8;
+  --color-ink-dim: #a8a29e;
+  --color-ink-ghost: #8a8682;
+  --color-chip-border: rgba(168, 162, 158, 0.2);
+
+  --font-sans: var(--font-geist), ui-sans-serif, system-ui, sans-serif;
+  --font-display: ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --ease-default: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--color-ground);
+}
+
+body {
+  background: var(--color-ground);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(16px);
+  transition:
+    opacity 0.4s var(--ease-default),
+    transform 0.4s var(--ease-default);
+}
+
+.reveal[data-visible="true"] {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

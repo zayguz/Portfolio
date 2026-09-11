@@ -1,0 +1,47 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "core": {
+    "text-primary": {
+      "value": "#121212",
+      "role": "text-primary",
+      "name": "color-ink"
+    },
+    "text-muted": {
+      "value": "#7e7e7e",
+      "role": "text-muted",
+      "name": "color-ink-dim"
+    },
+    "background": {
+      "value": "#ffffff",
+      "role": "background",
+      "name": "tw-ring-offset-color"
+    },
+    "surface": {
+      "value": "#f0f0f0",
+      "role": "surface",
+      "name": "color-raised"
+    }
+  },
+  "status": {},
+  "extended": {
+    "color-black": {
+      "value": "#000000",
+      "role": "unknown",
+      "name": "color-black"
+    },
+    "color-ink-ghost": {
+      "value": "#b0b0b0",
+      "role": "unknown",
+      "name": "color-ink-ghost"
+    },
+    "color-chip-border": {
+      "value": "#e3e1e1",
+      "role": "unknown",
+      "name": "color-chip-border"
+    }
+  },
+  "meta": {
+    "theme": "light",
+    "extracted": "2026-09-11"
+  }
+}
