@@ -5,7 +5,6 @@ export const profile = {
   location: "Union, NJ",
   timeZone: "America/New_York",
   email: "imguzman0813@gmail.com",
-  phone: "(908) 590-5037",
   linkedin: {
     label: "/in/isaiah-guzman",
     href: "https://linkedin.com/in/isaiah-guzman-626069233",

@@ -158,11 +158,6 @@ export default function Home() {
               href={`mailto:${profile.email}`}
             />
             <Row
-              label="Phone"
-              value={profile.phone}
-              href={`tel:${profile.phone.replace(/[^0-9+]/g, "")}`}
-            />
-            <Row
               label="LinkedIn"
               value={profile.linkedin.label}
               href={profile.linkedin.href}
