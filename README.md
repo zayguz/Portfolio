@@ -2,6 +2,19 @@
 
 Personal portfolio site built with Next.js (App Router), TypeScript, and Tailwind CSS v4.
 
+![The portfolio homepage: name, about section, and experience entries on a dark background](docs/preview.png)
+
+## Stack
+
+| | |
+| --- | --- |
+| Framework | [Next.js 16](https://nextjs.org) (App Router, Turbopack) |
+| Language | TypeScript 5 |
+| UI | React 19 |
+| Styling | Tailwind CSS v4 (theme variables in `globals.css`) |
+| Icons | [simple-icons](https://simpleicons.org) |
+| Rendering | Fully static — prerendered at build time |
+
 ## Development
 
 ```bash
