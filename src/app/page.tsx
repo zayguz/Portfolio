@@ -4,7 +4,6 @@ import { TechIcon } from "@/components/TechIcon";
 import { Bullets, Chip, Emphasis, Meta, Row, Section } from "@/components/ui";
 import {
   about,
-  certifications,
   domains,
   education,
   experience,
@@ -103,34 +102,6 @@ export default function Home() {
               <Meta org={entry.org} period={entry.period} />
             </Reveal>
           ))}
-        </Section>
-
-        <Section label="Certifications">
-          <div className="flex flex-col gap-6">
-            {certifications.map((entry) => (
-              <Reveal key={entry.title}>
-                <a
-                  href={entry.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group flex items-center justify-between gap-4"
-                >
-                  <span>
-                    <span className="block font-sans text-base font-medium text-ink">
-                      {entry.title}
-                    </span>
-                    <Meta org={entry.org} period={entry.period} />
-                  </span>
-                  <span
-                    aria-hidden
-                    className="shrink-0 text-ink-ghost transition-colors group-hover:text-ink"
-                  >
-                    →
-                  </span>
-                </a>
-              </Reveal>
-            ))}
-          </div>
         </Section>
 
         <Section label="Skills / Domain">

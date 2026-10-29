@@ -97,15 +97,6 @@ export const education = [
   },
 ];
 
-export const certifications = [
-  {
-    title: "Claude Certified Architect (CCA)",
-    org: "Anthropic",
-    period: "In progress",
-    href: "https://www.anthropic.com",
-  },
-];
-
 export const skills = [
   "python",
   "openjdk",
