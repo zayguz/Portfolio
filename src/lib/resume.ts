@@ -45,43 +45,46 @@ export const experience: Entry[] = [
     ],
   },
   {
+    title: "Extern — AI-Powered Document Q&A Tool",
+    org: "AI Powered Application",
+    period: "2026",
+    bullets: [
+      "Built AI pipelines to process pharmaceutical vendor files using OCR (Tesseract, PaddleOCR) and RAG for data extraction and classification across 5+ vendor documents, reaching ~80% field-extraction accuracy.",
+      "Developed a RAG-based document retrieval system with LlamaIndex, optimized with chunk tuning and open-source LLMs (Mistral, Phi-2), improving top-5 retrieval relevance ~25% over baseline.",
+      "Conducted end-to-end evaluation of the document intelligence system — benchmarking OCR accuracy, RAG retrieval quality, and routing performance on a 50-query test set. Delivered a technical report on model trade-offs, optimization strategies, and deployment recommendations, and built a UI for demo purposes.",
+    ],
+  },
+  {
     title: "Media Production Coordinator",
     org: "Calvary Christian Center",
     period: "2022 – Present",
     bullets: [
-      "Led technical production for live and streamed services, managing A/V systems, broadcast software, and multimedia pipelines for audiences of 200+.",
-      "Coordinated with volunteers and staff to ensure flawless execution of weekly and special-event productions.",
+      "Lead technical production for live and streamed services, managing A/V systems, broadcast software, and multimedia pipelines for in-person audiences of 200+ and a remote stream.",
+      "Operate and troubleshoot audio, video, and streaming equipment live with minimal disruption.",
+      "Coordinate and train volunteers and staff for weekly and special-event productions.",
     ],
   },
 ];
 
 export const projects: Entry[] = [
   {
+    title: "JOLO — Cross-Platform Mobile App",
+    org: "React Native, Expo, TypeScript",
+    period: "2026",
+    bullets: [
+      "Built a cross-platform iOS/Android/web app with React Native 0.81 and Expo SDK 54 (New Architecture), configuring TypeScript, Babel module-resolver aliasing, and platform build manifests.",
+      "Architected file-based navigation in Expo Router, using nested route groups to isolate the auth flow from a tab-navigated main app.",
+      "Developed a reusable themed component library and custom React hook driven by centralized design tokens, delivering automatic light/dark theming app-wide.",
+    ],
+  },
+  {
     title: "Freelance Website Development",
-    org: "Full-Stack Web",
+    org: "Full-Stack Web Project",
     period: "2026 – Present",
     href: "https://immarealestate.com",
     bullets: [
-      "Designed and delivered custom websites for small business clients, managing full project lifecycles from requirements and design through deployment.",
-      "Built responsive sites and integrated Follow Up Boss, Zapier webhooks, and Google Analytics.",
-    ],
-  },
-  {
-    title: "JOLO — Coffee & Drink Social App",
-    org: "Mobile Development",
-    period: "2026",
-    bullets: [
-      "Built a cross-platform mobile app for discovering new drinks, posting creations, and searching for your café.",
-      "Implemented persistent local storage, dynamic UI components, and third-party APIs including Google Maps.",
-    ],
-  },
-  {
-    title: "Extern — AI Document Reader",
-    org: "Full-Stack Web",
-    period: "2025",
-    bullets: [
-      "Used advanced OCR, RAG, and blob processing for document classification and routing.",
-      "Integrated a chatbot and agents into the final product to reduce hallucinations and deliver accurate, reliable results.",
+      "Designed and delivered custom websites for 2+ small business clients, managing full project lifecycles from requirements and design through deployment.",
+      "Built a responsive website using HTML and integrated multiple APIs, including Follow Up Boss, Zapier webhooks, and Google Analytics. Automated lead capture, saving 5 hrs/week of manual entry.",
     ],
   },
 ];
@@ -116,9 +119,8 @@ export const skills = [
   "postgresql",
   "mysql",
   "react",
-  "expo",
   "nodedotjs",
-  "dotnet",
+  "nextdotjs",
   "pandas",
   "numpy",
   "git",
@@ -131,9 +133,8 @@ export const skills = [
 ] as const;
 
 export const domains = [
-  "Full-Stack Web",
-  "Mobile Development",
+  "Full-Stack Web & Mobile Development",
+  "Client & Project Management",
   "Database Engineering",
   "Machine Learning",
-  "Client & Project Management",
 ];
